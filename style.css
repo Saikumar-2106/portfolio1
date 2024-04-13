@@ -50,7 +50,7 @@ header {
   left: 0;
   right: 0;
   z-index: 1000;
-  display: flex;
+  display: flex-inline;
   align-items: center;
   justify-content: space-between;
   padding: 1.7rem 10%;
@@ -98,6 +98,7 @@ header .ul {
 }
 header .li {
   margin-left: 2.5rem;
+  display:flex-inline;
 }
 header .ul li a {
   font-size: 1.57rem;
@@ -106,6 +107,7 @@ header .ul li a {
   text-decoration: none;
   letter-spacing: 0.04rem;
   transition: 0.2s;
+  display:flex-inline;
 }
 header .ul li a.active,
 header .ul li a:hover {
@@ -141,6 +143,7 @@ header .ul li a:hover {
     margin: 1rem 0;
     border-radius: 0.5rem;
     width: 26rem;
+    display:flex-inline;
   }
   header .ul li a {
     display: flex-inline;
