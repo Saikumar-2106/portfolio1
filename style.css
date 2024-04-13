@@ -92,7 +92,7 @@ header .logo i {
 
 header .navbar ul {
   list-style: none;
-  display: flex;
+  display: flex-inline;
   justify-content: center;
   align-items: center;
 }
