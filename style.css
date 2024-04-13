@@ -90,16 +90,16 @@ header .logo i {
   font-size: 2.2rem;
 }
 
-header .navbar ul {
+header .ul {
   list-style: none;
   display: flex-inline;
   justify-content: center;
   align-items: center;
 }
-header .navbar li {
+header .li {
   margin-left: 2.5rem;
 }
-header .navbar ul li a {
+header .ul li a {
   font-size: 1.57rem;
   color: #ffffff;
   font-weight: 600;
@@ -107,8 +107,8 @@ header .navbar ul li a {
   letter-spacing: 0.04rem;
   transition: 0.2s;
 }
-header .navbar ul li a.active,
-header .navbar ul li a:hover {
+header .ul li a.active,
+header .ul li a:hover {
   color: #0720ff;
   border-bottom: 0.2rem solid #011aff;
   padding: 0.5rem 0;
