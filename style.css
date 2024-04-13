@@ -130,36 +130,27 @@ header .ul li a:hover {
   #menu i{
     color: white !important;
   }
-  header .navbar {
-    position: fixed;
-    top: 6.5rem;
-    right: -120%;
-    width: 75%;
-    height: 100%;
-    text-align: left;
-    align-items: flex-start;
-    background-color: #0e0f3188;
-  }
-  header .navbar ul {
+  
+  header .ul {
     flex-flow: column;
     padding: 1rem;
   }
-  header .navbar ul li {
+  header .ul li {
     text-align: center;
     width: 100%;
     margin: 1rem 0;
     border-radius: 0.5rem;
     width: 26rem;
   }
-  header .navbar ul li a {
-    display: block;
+  header .ul li a {
+    display: flex-inline;
     padding: 1rem;
     text-align: left;
     color: #fff;
     font-size: 2rem;
   }
-  header .navbar ul li a.active,
-  header .navbar ul li a:hover {
+  header .ul li a.active,
+  header .ul li a:hover {
     padding: 1rem;
     color: #fff;
     border-radius: 0.5rem;
@@ -167,9 +158,6 @@ header .ul li a:hover {
   }
   .fa-times {
     transform: rotate(180deg);
-  }
-  header .navbar.nav-toggle {
-    right: 0;
   }
 }
 /* hamburger icon ends */
